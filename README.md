@@ -11,11 +11,18 @@ This project predicts 30-day hospital readmissions using structured EHR data and
 5. Interpretation & reporting
 
 ## Folder Structure
+
 hospital-readmission-prediction/
-│── data
-│   ├── raw
-│   ├── processed
-│── notebooks
-│── src
-│── models
-│── reports
+│
+├── README.md
+├── requirements.txt
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   ├── utils.py
+│
+└── notebooks/
+    ├── 01_Readmission_Model_Development.ipynb
+
